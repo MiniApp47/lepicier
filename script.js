@@ -36,16 +36,77 @@ document.addEventListener("DOMContentLoaded", function () {
       image: "CategWeed.png",
       farms: [
          {
+          id: "Beuh Hollandaise 🇳🇱",
+          name: "🇳🇱 Beuh Hollandaise 🇳🇱",
+          badgeText: "Beuh Hollandaise",
+          products: [
+            {
+              id: "Amnesia 🍋",
+              flag: "🇳🇱",
+              name: "Amnesia 🍋",
+              farm: "CALI USA MIDSHELF 🇺🇸",
+              type: "Mousseux",
+              image: "ProductA.jpg",
+              video: "VideoA.mov",
+              description: "",
+              tarifs: [
+                { weight: "2G", price: 20.0 },
+                { weight: "5G", price: 50.0 },
+                { weight: "10G", price: 80.0 },
+                { weight: "25G", price: 170.0 },
+                { weight: "50G", price: 320.0 },
+                { weight: "100G", price: 560.0 },
+              ],
+            },
+          ],
+        },
+         {
           id: "CALI_US",
           name: "🇺🇸 CALI US",
           badgeText: "Cali US",
           products: [
              {
+              id: "Ice Cherry 🍒🧊",
+              flag: "🇺🇸",
+              name: "Ice Cherry 🍒🧊",
+              farm: "TOPSHELF 🇺🇸",
+              type: "🇺🇸 CALI US",
+              image: "ProductIC.jpg",
+              video: "VideoIC.mp4",
+              description: "Cali USA topshelf 🇺🇸",
+              tarifs: [
+                { weight: "2G", price: 30.0 },
+                { weight: "5G", price: 60.0 },
+                { weight: "10G", price: 120.0 },
+                { weight: "20G", price: 200.0 },
+                { weight: "50G", price: 370.0 },
+                { weight: "100G", price: 720.0 },
+              ],
+            },
+             {
+              id: "Blue Wagyu 🥩🧞‍♂️",
+              flag: "🇺🇸",
+              name: "Blue Wagyu 🥩🧞‍♂️",
+              farm: "TOPSHELF 🇺🇸",
+              type: "🇺🇸 CALI US",
+              image: "ProductBW.jpg",
+              video: "VideoBW.mp4",
+              description: "Cali USA topshelf 🇺🇸",
+              tarifs: [
+                { weight: "2G", price: 30.0 },
+                { weight: "5G", price: 60.0 },
+                { weight: "10G", price: 120.0 },
+                { weight: "20G", price: 200.0 },
+                { weight: "50G", price: 370.0 },
+                { weight: "100G", price: 720.0 },
+              ],
+            },
+             {
               id: "Exotik Lemon 🍋🌴",
               flag: "🇺🇸",
               name: "Exotik Lemon 🍋🌴",
               farm: "CALI USA MIDSHELF 🇺🇸",
-              type: "Mousseux",
+              type: "🇺🇸 CALI US",
               image: "ProductEL.jpg",
               video: "VideoEL.mp4",
               description: "",
@@ -60,6 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
           ],
         },
+        
         /* {
           id: "CALI_ESPAGNOL",
           name: "🇪🇸 CALI ESPAGNOL",
@@ -116,6 +178,42 @@ document.addEventListener("DOMContentLoaded", function () {
           badgeText: "Dry",
           products: [
             {
+              id: "Tropicana cherry🍒🌴",
+              flag: "🇺🇸",
+              name: "Tropicana cherry🍒🌴",
+              farm: "NO FARM 🫁",
+              type: "Dry",
+              image: "ProductTC.jpg",
+              video: "VideoTC.mp4",
+              description: "DRY NO FARM 90u 👨🏽‍🌾",
+              tarifs: [
+                { weight: "2G", price: 20.0 },
+                { weight: "5G", price: 40.0 },
+                { weight: "10G", price: 80.0 },
+                { weight: "25G", price: 150.0 },
+                { weight: "50G", price: 240.0 },
+                { weight: "100G", price: 450.0 },
+              ],
+            },
+            {
+              id: "Knock out 🥊",
+              flag: "🇺🇸",
+              name: "Knock out 🥊",
+              farm: "NO FARM 🫁",
+              type: "Dry",
+              image: "ProductKO.jpg",
+              video: "VideoKO.mp4",
+              description: "DRY NO FARM 90u 👨🏽‍🌾",
+              tarifs: [
+                { weight: "2G", price: 20.0 },
+                { weight: "5G", price: 40.0 },
+                { weight: "10G", price: 80.0 },
+                { weight: "25G", price: 150.0 },
+                { weight: "50G", price: 240.0 },
+                { weight: "100G", price: 450.0 },
+              ],
+            },
+            /* {
               id: "Black Orange 🍊",
               flag: "🇺🇸",
               name: "Black Orange 🍊",
@@ -150,7 +248,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50G", price: 240.0 },
                 { weight: "100G", price: 430.0 },
               ],
-            },
+            }, */
           ],
         },
         {
@@ -158,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "🔮 STATIC",
           badgeText: "Static",
           products: [
-            {
+           /*  {
               id: "Gelato 28",
               flag: "🇺🇸",
               name: "Gelato 2️⃣8️⃣",
@@ -211,7 +309,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50G", price: 240.0 },
                 { weight: "100G", price: 430.0 },
               ],
-            },
+            }, */
           ],
         },
         {
@@ -219,7 +317,7 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "🧊 FROZEN",
           badgeText: "Frozen",
           products: [
-            {
+           /*  {
               id: "Green Crack 🌴🥝",
               flag: "🇺🇸",
               name: "Green Crack 🌴🥝",
@@ -236,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50G", price: 270.0 },
                 { weight: "100G", price: 520.0 },
               ],
-            },
+            }, */
           ],
         },
       ],
