@@ -41,6 +41,25 @@ document.addEventListener("DOMContentLoaded", function () {
           badgeText: "Beuh Hollandaise",
           products: [
             {
+              id: "Silver Haze 🌲",
+              flag: "🇳🇱",
+              name: "Silver Haze 🌲",
+              farm: "CALI 🇳🇱",
+              type: "Mousseux",
+              image: "ProductSH.jpg",
+              video: "VideoSH.mp4",
+              description: "",
+              tarifs: [
+                { weight: "2G", price: 20.0 },
+                { weight: "5G", price: 40.0 },
+                { weight: "10G", price: 80.0 },
+                { weight: "25G", price: 170.0 },
+                { weight: "50G", price: 290.0 },
+                { weight: "100G", price: 520.0 },
+                { weight: "200G", price: 1000.0 },
+              ],
+            },
+            /* {
               id: "Amnesia 🍋",
               flag: "🇳🇱",
               name: "Amnesia 🍋",
@@ -57,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50G", price: 320.0 },
                 { weight: "100G", price: 560.0 },
               ],
-            },
+            }, */
           ],
         },
          {
@@ -65,7 +84,79 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "🇺🇸 CALI US",
           badgeText: "Cali US",
           products: [
-             {
+            {
+              id: "Gelato 33 🧬♨️",
+              flag: "🇺🇸",
+              name: "Gelato 33 🧬♨️",
+              farm: "TOPSHELF 🇺🇸",
+              type: "🇺🇸 CALI US",
+              image: "ProductG3.jpg",
+              video: "VideoG3.mp4",
+              description: "Cali USA topshelf 🇺🇸",
+              tarifs: [
+                { weight: "2G", price: 30.0 },
+                { weight: "5G", price: 60.0 },
+                { weight: "10G", price: 120.0 },
+                { weight: "20G", price: 200.0 },
+                { weight: "100G", price: 730.0 },
+                { weight: "200G", price: 1400.0 },
+              ],
+            },
+            {
+              id: "rainbow sherbet 💎",
+              flag: "🇺🇸",
+              name: "Rainbow Sherbet 💎",
+              farm: "TOPSHELF 🇺🇸",
+              type: "🇺🇸 CALI US",
+              image: "ProductRS.jpg",
+              video: "VideoRS.mp4",
+              description: "Cali USA topshelf 🇺🇸",
+              tarifs: [
+                { weight: "2G", price: 30.0 },
+                { weight: "5G", price: 60.0 },
+                { weight: "10G", price: 120.0 },
+                { weight: "20G", price: 200.0 },
+                { weight: "100G", price: 730.0 },
+                { weight: "200G", price: 1400.0 },
+              ],
+            },
+            {
+              id: "Frosty Banana 🧊🍌",
+              flag: "🇺🇸",
+              name: "Frosty Banana 🧊🍌",
+              farm: "TOPSHELF 🇺🇸",
+              type: "🇺🇸 CALI US",
+              image: "ProductFB.jpg",
+              video: "VideoFB.mp4",
+              description: "Cali USA topshelf 🇺🇸",
+              tarifs: [
+                { weight: "2G", price: 30.0 },
+                { weight: "5G", price: 60.0 },
+                { weight: "10G", price: 120.0 },
+                { weight: "20G", price: 200.0 },
+                { weight: "100G", price: 730.0 },
+                { weight: "200G", price: 1400.0 },
+              ],
+            },
+            {
+              id: "Gumbo 🏝️",
+              flag: "🇺🇸",
+              name: "Gumbo 🏝️",
+              farm: "TOPSHELF 🇺🇸",
+              type: "🇺🇸 CALI US",
+              image: "ProductGG.jpg",
+              video: "VideoGG.mp4",
+              description: "Cali USA topshelf 🇺🇸",
+              tarifs: [
+                { weight: "2G", price: 30.0 },
+                { weight: "5G", price: 60.0 },
+                { weight: "10G", price: 120.0 },
+                { weight: "20G", price: 200.0 },
+                { weight: "100G", price: 730.0 },
+                { weight: "200G", price: 1400.0 },
+              ],
+            },
+            /*  {
               id: "Ice Cherry 🍒🧊",
               flag: "🇺🇸",
               name: "Ice Cherry 🍒🧊",
@@ -118,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50G", price: 360.0 },
                 { weight: "100G", price: 680.0 },
               ],
-            },
+            }, */
           ],
         },
         
@@ -154,7 +245,7 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "🧼 MOUSSEUX",
           badgeText: "Mousseux",
           products: [
-            {
+           /*  {
               id: "Moussflix 🎥🍿",
               flag: "🇺🇸",
               name: "Moussflix 🎥🍿",
@@ -169,15 +260,49 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "20G", price: 80.0 },
                 { weight: "50G", price: 160.0 },
               ],
-            },
+            }, */
           ],
         },
         {
           id: "DRY",
-          name: "💎 DRY",
+          name: "DRY SIFT USA 🇺🇸",
           badgeText: "Dry",
           products: [
             {
+              id: "Monster Dosidos 👹🌮",
+              flag: "🇺🇸",
+              name: "Monster Dosidos 👹🌮",
+              farm: "NO FARM 🫁",
+              type: "Dry",
+              image: "ProductMD.jpg",
+              video: "VideoMD.mp4",
+              description: "DRY SIFT USA 👨🏽‍🌾",
+              tarifs: [
+                { weight: "1.5G", price: 20.0 },
+                { weight: "5G", price: 50.0 },
+                { weight: "10G", price: 100.0 },
+                { weight: "25G", price: 200.0 },
+                { weight: "50G", price: 350.0 },
+              ],
+            },
+            {
+              id: "Blue dream 💭🔵",
+              flag: "🇺🇸",
+              name: "Blue dream 💭🔵",
+              farm: "NO FARM 🫁",
+              type: "Dry",
+              image: "ProductBD.jpg",
+              video: "VideoBD.mp4",
+              description: "DRY SIFT USA 👨🏽‍🌾",
+              tarifs: [
+                { weight: "1.5G", price: 20.0 },
+                { weight: "5G", price: 50.0 },
+                { weight: "10G", price: 100.0 },
+                { weight: "25G", price: 200.0 },
+                { weight: "50G", price: 350.0 },
+              ],
+            },
+            /* {
               id: "Tropicana cherry🍒🌴",
               flag: "🇺🇸",
               name: "Tropicana cherry🍒🌴",
@@ -212,7 +337,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50G", price: 240.0 },
                 { weight: "100G", price: 450.0 },
               ],
-            },
+            }, */
             /* {
               id: "Black Orange 🍊",
               flag: "🇺🇸",
@@ -256,6 +381,22 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "🔮 STATIC",
           badgeText: "Static",
           products: [
+            {
+              id: "73/160u",
+              flag: "🇺🇸",
+              name: "73/160u ☀️💥",
+              farm: "BBM FARM ⚡️🐦‍🔥",
+              type: "Static",
+              image: "Product73.jpg",
+              video: "Video73.mp4",
+              description: "STATIK BBM FARM 73/160u ⚡️🐦‍🔥",
+              tarifs: [
+                { weight: "2G", price: 20.0 },
+                { weight: "5G", price: 40.0 },
+                { weight: "10G", price: 80.0 },
+                { weight: "25G", price: 160.0 },
+              ],
+            },
            /*  {
               id: "Gelato 28",
               flag: "🇺🇸",
@@ -317,6 +458,25 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "🧊 FROZEN",
           badgeText: "Frozen",
           products: [
+             {
+              id: "tropicana🌴",
+              flag: "🇺🇸",
+              name: "Tropicana 🌴",
+              farm: "NO FARM 🫁",
+              type: "Static",
+              image: "ProductT.jpg",
+              video: "VideoT.mp4",
+              description: "FROZEN NO FARM 160/90u 👨🏽‍🌾⚡️",
+              tarifs: [
+                { weight: "1.5G", price: 20.0 },
+                { weight: "5G", price: 50.0 },
+                { weight: "10G", price: 90.0 },
+                { weight: "20G", price: 170.0 },
+                { weight: "50G", price: 280.0 },
+                { weight: "100G", price: 520.0 },
+                { weight: "200G", price: 980.0 },
+              ],
+            }
            /*  {
               id: "Green Crack 🌴🥝",
               flag: "🇺🇸",
@@ -346,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function () {
       quality: "🎉 FÊTES",
       image: "CategFete.png",
       products: [
-         {
+        /*  {
               id: "PILLS ROLLS ROYCE 🍬",
               flag: "🇧🇴",
               name: "PILLS ROLLS ROYCE 🍬",
@@ -380,7 +540,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "5G", price: 200.0 },
                 { weight: "10G", price: 360.0 },
               ],
-            },
+            }, */
       ],
     },
   ];
