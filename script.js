@@ -40,6 +40,24 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "🇳🇱 Beuh Hollandaise 🇳🇱",
           badgeText: "Beuh Hollandaise",
           products: [
+             {
+              id: "Hollands hoop 💎⚡️",
+              flag: "🇳🇱",
+              name: "Hoop 💎⚡️",
+              farm: "TOPSHELF 🇳🇱",
+              type: "🇳🇱 CALI",
+              image: "ProductHH.jpg",
+              video: "VideoHH.mp4",
+              description: "Cali topshelf 🇳🇱",
+              tarifs: [
+                { weight: "2G", price: 30.0 },
+                { weight: "5G", price: 60.0 },
+                { weight: "10G", price: 120.0 },
+                { weight: "20G", price: 200.0 },
+                { weight: "100G", price: 720.0 },
+                { weight: "200G", price: 1400.0 },
+              ],
+            },
             {
               id: "Silver Haze 🌲",
               flag: "🇳🇱",
@@ -84,24 +102,6 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "🇺🇸 CALI US",
           badgeText: "Cali US",
           products: [
-            {
-              id: "Hollands hoop 💎⚡️",
-              flag: "🇺🇸",
-              name: "Hollands hoop 💎⚡️",
-              farm: "TOPSHELF 🇺🇸",
-              type: "🇺🇸 CALI US",
-              image: "ProductHH.jpg",
-              video: "VideoHH.mp4",
-              description: "Cali USA topshelf 🇺🇸",
-              tarifs: [
-                { weight: "2G", price: 30.0 },
-                { weight: "5G", price: 60.0 },
-                { weight: "10G", price: 120.0 },
-                { weight: "20G", price: 200.0 },
-                { weight: "100G", price: 720.0 },
-                { weight: "200G", price: 1400.0 },
-              ],
-            },
             {
               id: "Weeding cake 🧁⚡️",
               flag: "🇺🇸",
