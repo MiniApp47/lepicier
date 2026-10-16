@@ -323,7 +323,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
           id: "DRYSIFT USA 🇲🇦",
-          name: "DRYSIFT USA 🇲🇦",
+          name: "DRYSIFT 🇲🇦",
           badgeText: "Dry",
           products: [
             {
