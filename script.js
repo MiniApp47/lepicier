@@ -404,7 +404,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "200G", price: 900.0 },
               ],
             },
-            {
+           /*  {
               id: "Oreo 🥛🍩",
               flag: "🇲🇦",
               name: "Oreo 🥛🍩",
@@ -422,15 +422,15 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100G", price: 460.0 },
                 { weight: "200G", price: 900.0 },
               ],
-            },
+            }, */
           ],
         },
-        {
+       /*  {
           id: "DRY",
           name: "DRY SIFT USA 🇺🇸",
           badgeText: "Dry",
           products: [
-            {
+           /*  {
               id: "DRY SIFT USA 🇺🇸",
               flag: "🇺🇸",
               name: "DRY SIFT USA 🇺🇸",
@@ -446,7 +446,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "25G", price: 200.0 },
                 { weight: "50G", price: 350.0 },
               ],
-            }, 
+            },  */
             /* {
               id: "Monster Dosidos 👹🌮",
               flag: "🇺🇸",
@@ -464,7 +464,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50G", price: 350.0 },
               ],
             }, */
-            {
+           /*  {
               id: "Blue dream 💭🔵",
               flag: "🇺🇸",
               name: "Blue dream 💭🔵",
@@ -480,7 +480,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "25G", price: 200.0 },
                 { weight: "50G", price: 350.0 },
               ],
-            },
+            }, */
             /* {
               id: "Tropicana cherry🍒🌴",
               flag: "🇺🇸",
@@ -552,9 +552,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "50G", price: 240.0 },
                 { weight: "100G", price: 430.0 },
               ],
-            }, */
+            }, 
           ],
-        },
+        }, */
         {
           id: "STATIC",
           name: "🔮 STATIC",
@@ -637,7 +637,7 @@ document.addEventListener("DOMContentLoaded", function () {
           name: "🧊 FROZEN",
           badgeText: "Frozen",
           products: [
-             {
+           /*   {
               id: "tropicana🌴",
               flag: "🇺🇸",
               name: "Tropicana 🌴",
@@ -655,7 +655,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 { weight: "100G", price: 520.0 },
                 { weight: "200G", price: 980.0 },
               ],
-            }
+            } */
            /*  {
               id: "Green Crack 🌴🥝",
               flag: "🇺🇸",
